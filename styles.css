@@ -9,7 +9,9 @@ body{
 
 .header{
     background-color: #1F2937;
-    padding: 16px 150px 50px;
+    padding: 16px 450px 50px;
+    
+    
    
 }
 .top-box{
@@ -23,7 +25,7 @@ body{
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8 ;
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     padding: 0;
     margin: 0;
     
@@ -40,7 +42,55 @@ a{
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-    border: 1px solid greenyellow;
+    /*border: 1px solid greenyellow;*/
     padding: 0;
     margin: 0;
 }
+
+.hero-box{
+    display: flex;
+    justify-content: space-between;
+   /* border: 1px solid plum;*/
+    margin-top: 75px;
+    
+    
+    
+}
+.title{
+    width: 450px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+   /* border: 1px solid red;*/
+    padding: 0;
+    flex-shrink: 1;
+    
+    
+}
+
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    /*border: 1px solid orange;*/
+    padding: 0px 10px 10px 0px;
+    flex-shrink: 1;
+    
+    
+   
+    
+}
+
+button{
+    width: 90px;
+    height: 35px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+img{
+    width: 450px;
+    height: 250px;
+}
+
