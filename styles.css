@@ -8,23 +8,23 @@ body{
 }
 
 .header{
-    background-color: #1F2937;
-    padding: 16px 450px 50px;
-}
-.top-box{
     display: flex;
     justify-content: space-between;
-    /*padding: 10px 150px 0px;*/
+    background-color: #1F2937;
+    /*padding: 16px 450px 50px;*/
+    /*border: 1px solid turquoise;*/
+    
+    
 }
 
-
 .big-name{
+    width: 450px;
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8 ;
     /*border: 1px solid yellow;*/
-    padding: 0;
-    margin: 0;
+    /*padding:0px 0px 24px 48px;*/
+    margin: 0px 0px 24px 48px;
     
 }
 
@@ -40,26 +40,35 @@ a{
     justify-content: flex-end;
     gap: 10px;
     /*border: 1px solid greenyellow;*/
-    padding: 0;
+   padding: 0px;
     margin: 0;
+
 }
 
-.hero-box{
+.placeholder{
     display: flex;
-    justify-content: space-between;
-   /* border: 1px solid plum;*/
-    margin-top: 75px;
-    
-    
-    
+    justify-content: center;
+    align-items: center;
+    border:1px solid grey;
+    background-color: grey;
+    width: 500px;
+    height: 245px;
+    margin: 80px 0px 0px 0px;
 }
+.img-box{
+    /*border: 1px solid lightcoral;*/
+    padding-left: 48px;
+    margin: 0px 48px 24px 0px;
+    flex-shrink: 1;
+}
+
 .title{
-    width: 450px;
+   /* width: 450px;*/
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-   /* border: 1px solid red;*/
-    padding: 0;
+    /*border: 1px solid red;*/
+    padding-top: 80px;
     flex-shrink: 1;
     
     
@@ -83,15 +92,15 @@ button{
     background-color: #3882f6;
     color: white;
     border-radius: 5px;
+    border: none;
     font-weight: bold;
 }
 
-img{
-    width: 450px;
-    height: 250px;
+/*img{
+    width: 370px;
+    height: 170px;
     border-radius: 5px;
-    text-align: end;
-}
+}*/
 
 .box2{
     text-align: center;
@@ -100,8 +109,8 @@ img{
 }
 
 .pics{
-    width:115px ;
-    height: 115px;
+    width:150px ;
+    height: 150px;
 }
 
 .pic-container{
@@ -114,7 +123,7 @@ img{
 }
  
 .info{
-    max-width:150px;
+    max-width:250px;
 }
 
 .header2{
