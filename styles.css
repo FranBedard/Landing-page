@@ -5,6 +5,7 @@ body{
     margin:0;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 
 }
 
@@ -15,7 +16,7 @@ body{
     display: flex ;
     justify-content: space-around;
     padding-bottom: 50px;
-    flex-wrap: wrap;  
+   /* flex-wrap: wrap; */ 
 }
 
 .Logo{
